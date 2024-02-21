@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State-of-the-Art Recording Studio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            background-image: url('header-image.jpg'); /* Replace 'header-image.jpg' with the actual path to your header image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .columns {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+        .column {
+            flex: 0 0 calc(33.33% - 20px);
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        @media screen and (max-width: 768px) {
+            .column {
+                flex: 0 0 calc(50% - 20px);
+            }
+        }
+        @media screen and (max-width: 480px) {
+            .column {
+                flex: 0 0 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Welcome to our state-of-the-art recording studio</h1>
+            <p>A creative sanctuary where over 25 years of music production and voice recording expertise come to life.</p>
+            <p>Specializing in demo facilities, tracking, and high-quality production recordings, we empower artists to realize their visions with precision and passion.</p>
+            <p>With a fully equipped facility that includes advanced engineering capabilities and a virtual console, we cater to a diverse range of musical talents and genres.</p>
+            <p>Whether you're a solo musician or a band, looking to craft your next demo or a production recording, our studio is designed to elevate your sound.</p>
+            <p>Let us be the bridge to your auditory excellence.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h2>Production Services</h2>
+                <ul>
+                    <li>Recording Studio</li>
+                    <li>Producing Studio</li>
+                    <li>Futuristic Studio</li>
+                    <li>Audio Production</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Engineering Services</h2>
+                <ul>
+                    <li>Mixing Services</li>
+                    <li>Remixing Services</li>
+                    <li>Mastering Services</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h2>Vocal Demo Production</h2>
+                <ul>
+                    <li>Artist Demo Production</li>
+                    <li>Voice Talent Services</li>
+                    <li>In the Recording Studio</li>
+                    <li>Recording in Studio</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
